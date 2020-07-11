@@ -17,7 +17,6 @@ h1{
 	justify-content: space-around;
 	align-items: center;
 	overflow: hidden;
-	flex-wrap: wrap-reverse;
 }
 .hover_effect{
 	width: 350px;
@@ -63,11 +62,12 @@ i{
 	transition-timing-function: ease;
 }
 @media(max-width: 768px){
-	.container{
-		flex-direction: column;
-	}
+		.container{
+			flex-direction: column;
+		}
 	.hover_effect{
 		height: 200px;
 		width: 250px;
+		margin: 5px;
 	}
 }
